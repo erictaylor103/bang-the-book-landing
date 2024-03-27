@@ -1,0 +1,566 @@
+.main-wrapper{
+    background-color: black;
+    max-width: 1280px;
+    height: 1243px;
+    margin: 0 auto;
+}
+.top-content-container{
+    display: table;
+    position: relative;
+    max-width: 1280px;  
+    height: 100%;  
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 1243px;    
+    background-size: cover;    
+}
+.main-background-image{
+    width: 100%;
+    height: 1041px;
+}
+.desktop-player-image{
+    position: absolute;
+    top: 104px;
+	left: -10px;
+	width: 60%;
+}
+.bet-dsi-image{
+    position: relative;
+    left: 76px;
+    border: 1px solid white;
+}
+.carousel-main-wrapper{
+    width: 80%;
+     margin: 0 auto;
+}
+.list {
+    display: flex;
+    gap: 8px;
+    padding: 35px;
+    list-style: none; 
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.list::-webkit-scrollbar {
+    display: none;
+}
+.list{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}   
+.item {
+    flex-shrink: 0;
+    width: 297px;
+    background: black;
+    scroll-snap-align: center;
+} 
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;        
+    font-family: sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    width: 438px;
+} 
+.list-wrapper {
+    position: relative;
+    margin-top: -450px;
+     width: 100%;
+} 
+.button {
+    position: absolute;
+    top: 50%;
+    display: none;
+    width: 3rem;
+    height: 3rem;
+    transform: translateY(-50%);
+}
+.button--previous {
+    left: 1.5rem;
+    transform: rotate(180deg);
+}  
+.button--next {
+    right: 1.5rem;
+}
+.bet-dsi-mini-logo{
+    padding-left: 16px;
+    position: relative;
+    top: -84px;
+    left: 151px;
+    z-index: 1;
+}
+.bet-dsi-brand-texts-container{
+    position: relative;
+    text-align: center;
+    left: -69px;
+    top: -83px;
+}
+.middle-card-container{
+    position: relative;
+    color: white;
+    text-align: center;
+    left: -278px;
+}
+.middle-card-top-text{
+    width: 208px;
+}
+.bet-dsi-claim-offer-button{
+    position: relative;
+    top: 0px;
+    left: -28px;
+    width: 271px;
+    height: 35px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #707070;
+    background: rgba(250,113,33,255);
+    text-align: center;
+}
+.bet-dsi-claim-offer-button-long-text{
+    margin-top: 27px;
+}
+.form-black-background-rectangle{
+    position: absolute;
+    opacity: 0.7252;
+    top: 11%;
+    right: 8%;
+    width: 605px;
+    height: 605px;
+    background: rgba(255,255,255,0);
+    background: -webkit-linear-gradient(-179.99332825837deg , rgba(0,0,0,136) 0%, rgba(0,0,0,255) 100%);
+    background: -o-linear-gradient(-179.99332825837deg , rgba(0,0,0,136) 0%, rgba(0,0,0,255) 100%);
+    background: -moz-linear-gradient(-179.99332825837deg , rgba(0,0,0,136) 0%, rgba(0,0,0,255) 100%);
+    background: -ms-linear-gradient(-179.99332825837deg , rgba(0,0,0,136) 0%, rgba(0,0,0,255) 100%);
+    background: linear-gradient(-179.99332825837deg , rgba(0,0,0,136) 0%, rgba(0,0,0,255) 100%);
+}
+.form-container{
+    border-radius: 15px 15px 15px 15px;
+    background-color: #707070;
+    padding: 20px;
+    position: absolute;
+    top: 26%;
+    right: 211px;
+    width: 348px;
+    height: 181px;
+
+}
+input[type=text], select, textarea,
+input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;     
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #FA7121;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    margin-top: 45px;
+    width: 100%;
+    font-size: 1.4rem;
+    font-family: Lexend;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.top-text-main-wrapper{
+    position: absolute;
+    top: 10%;
+    right: 102px;
+    width: 605px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-text-top{
+    font-size: 2rem;
+    font-family: 'Lexend';
+    font-weight: bold;
+    color: white;
+}
+.left-text-bottom{
+    font-size: 4.5rem;
+    font-family: 'Lexend';
+    font-weight: bold;
+    margin-top: -45px;
+    color: white;
+}
+.right-text-top{
+    font-size: 1.8rem;
+    font-family: 'Lexend';
+    font-weight: bold;
+    color: #FA7121;
+}
+.right-text-bottom{
+    font-size: 1.4rem;
+    font-family: 'Lexend';
+    font-weight: bold;
+    color: white;
+    margin-top: -30px;
+    text-align: right;
+}
+.right-text-container{
+    margin-top: 40px;
+}
+.form-terms-condition-text{
+    font-family: 'Lexend';
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+}
+.register-below-text-container{
+    position: absolute;
+    top: 21%;
+    right: 22px;
+    width: 605px;           
+}
+.register-below-text{
+    color: white;
+    font-family: 'Lexend';
+    font-weight: bold;    
+}
+.bottom-cards-title-container{
+    position: absolute;
+    top: -86px;
+    left: 28.3%;         
+}
+.bottom-cards-title{
+    color: white;
+    font-family: Lexend;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+.bottom-cards-main-wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: -440px;
+    max-width: 1250px;
+    width: 100%;
+}
+.card-container{
+    width: 270px;
+    height: 270px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: rgba(0,0,0,255);
+    border: 1px solid #FFFFFF;
+    overflow: hidden;
+}
+.bookmaker-mini-logo{
+    padding-left: 16px;
+}
+.betus-mini-logo{
+    padding-left: 16px;
+}
+.betany-mini-logo{
+    padding-left: 16px;
+}
+.bet-dsi-container{
+    position: relative;
+    top: -271px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    column-gap: 47px;
+    background-color: rgb(0 0 0 / 60%);
+    width: 290px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.bookmaker-container{
+    position: absolute;
+    top: 2px;
+    left: 381px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    column-gap: 47px;
+    background-color: rgb(0 0 0 / 60%);
+    width: 290px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.betus-container{
+    position: absolute;
+    top: 2px;
+    left: 715px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    column-gap: 47px;
+    background-color: rgb(0 0 0 / 60%);
+    width: 290px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.betany-container{
+    position: absolute;
+    top: 2px;
+    left: 715px;
+    display: flex;
+    align-items: center;    
+    column-gap: 47px;
+    background-color: rgb(0 0 0 / 60%);
+    width: 290px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.bet-dsi-brand-text,
+.bet-dsi-sportsbook-text,
+.bookmaker-brand-text,
+.bookmaker-sportsbook-text,
+.betus-brand-text,
+.betus-sportsbook-text,
+.betany-brand-text{
+    color: white;
+    font-family: Lexend;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.bookmaker-sportsbook-text{
+    margin-top: -17px;
+}
+.bet-dsi-sportsbook-text{
+    margin-top: -17px;
+}
+.betus-sportsbook-text{
+    margin-top: -17px;
+}
+.betany-sportsbook-text{
+    margin-top: -17px;
+}
+.bookmaker-brand-texts-container{
+    text-align: center;
+}
+.betus-brand-texts-container{
+    text-align: center;
+}
+.betany-brand-texts-container{
+    text-align: center;
+}
+.middle-card-container-2{
+    position: relative;
+    color: white;
+    top: -339px;
+    text-align: center;
+    left: 0px;
+}
+.middle-card-container-3{
+    position: absolute;
+    color: white;
+    top: 16px;
+    text-align: center;
+    left: 766px;
+}
+.middle-card-container-4{
+    position: absolute;
+    color: white;
+    top: 16px;
+    text-align: center;
+    left: 766px;
+}
+.middle-card-top-text{
+    font-family: Lexend;
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+.middle-card-bottom-text{
+    font-size: 1.4rem;
+    font-family: Lexend;
+    margin-top: -90px;
+    transform: translateX(-33px);
+    font-weight: 400;
+}
+.middle-card-bottom-text-long{
+    font-size: 1.2rem;
+    font-family: Lexend;
+    margin-top: -90px;
+    transform: translateX(-33px);
+    font-weight: 400;
+}
+.middle-card-bottom-text-2{
+    font-size: 1.2rem;
+    font-family: Lexend;
+    margin-top: -90px;
+}
+.bet-dsi-claim-offer-button-text,
+.bookmaker-claim-offer-button-text,
+.betus-claim-offer-button-text,
+.betany-claim-offer-button-text{
+    color: white;
+    font-family: Lexend;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 5px;
+
+}
+.bet-dsi-claim-offer-button-2{
+    position: relative;
+    top: -336px;
+    left: 8px;
+    width: 253px;
+    height: 35px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #707070;
+    background: rgba(250,113,33,255);
+    text-align: center;
+}
+.bookmaker-claim-offer-button-2{
+    position: relative;
+    top: -361px;
+    left: 7px;
+    width: 253px;
+    height: 35px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #707070;
+    background: rgba(250,113,33,255);
+    text-align: center;
+}
+.betus-claim-offer-button-3{
+    position: absolute;
+    top: 215px;
+    left: 723px;
+    width: 276px;
+    height: 35px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #707070;
+    background: rgba(250,113,33,255);
+    text-align: center;
+}
+.betany-claim-offer-button-3{
+    position: absolute;
+    top: 215px;
+    left: 723px;
+    width: 276px;
+    height: 35px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #707070;
+    background: rgba(250,113,33,255);
+    text-align: center;
+}
+@media (min-width: 0px) and (max-width: 430px){
+    .form-container{
+        left: 7.3%;
+        width: 75% !important;
+    }
+}
+@media (min-width: 431px) and (max-width: 768px){
+    .bottom-cards-title-container{
+        left: 2.3% !important;
+    }
+    .bottom-cards-title{
+        font-size: 2rem !important;
+    }
+}
+@media (min-width: 0px) and (max-width: 768px){ 
+    .form-container{        
+        width: 80%;
+        top: 26.5%;
+        left: 7%;     
+    }
+    .form-black-background-rectangle{
+        right: initial;
+        width: 100%;
+        top: 20%;
+        height: 480px;
+    }
+    .main-background-image{
+        height: initial;
+    }
+    .right-text-bottom{
+        text-align: center;
+    }
+    .top-text-main-wrapper{
+        flex-direction: column;
+        right: -128px;
+        top: 0;
+    }
+    .right-text-container{
+        margin-top: -114px;
+        text-align: center;
+        transform: translateX(62px);
+    }
+    .left-text-container{
+        text-align: center;
+        transform: translateX(57px);
+    }
+    .left-text-top{
+        font-size: 1.8rem;
+    }
+    .left-text-bottom{
+        font-size: 4rem;
+    }
+    .desktop-player-image{
+        left: -64px;
+        top: 18px;
+        width: 92%;
+    }
+    .register-below-text-container{
+        right: -2%;
+        width: 97%;
+        /*padding-right: 1.8%;*/
+
+    }
+    .register-below-text{
+        font-size: 12px;
+        padding: 5px;
+    }
+    input[type=submit]{
+        padding: 4px 20px;
+        font-size: 1.2rem;
+    }
+    .form-terms-conditions-text-container{
+        margin-top: 31px;
+    }
+    .form-terms-condition-text{
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    .bottom-cards-title-container{
+        top: -60px;
+        width: initial;
+        left: 14%;
+    }
+    .bottom-cards-title{
+        font-size: 1.2rem;
+    }
+    .list-wrapper{
+        margin-top: -490px;
+    }
+}
