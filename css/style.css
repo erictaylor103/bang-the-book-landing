@@ -73,7 +73,7 @@ body{
 } 
 .list-wrapper {
     position: relative;
-    margin-top: -450px;
+    margin-top: -395px;
      width: 100%;
 } 
 .button {
@@ -127,6 +127,7 @@ body{
     border: 1px solid #707070;
     background: rgba(250,113,33,255);
     text-align: center;
+    transition: 0.5s;
 }
 .bet-dsi-claim-offer-button:hover{
     background: #65B11A;
@@ -139,9 +140,9 @@ body{
     position: absolute;
     opacity: 0.7252;
     top: 11%;
-    right: 8%;
+    right: 97px;
     width: 605px;
-    height: 605px;
+    height: 651px;
     background: rgba(255,255,255,0);
     background: -webkit-linear-gradient(-179.99332825837deg , rgba(0,0,0,136) 0%, rgba(0,0,0,255) 100%);
     background: -o-linear-gradient(-179.99332825837deg , rgba(0,0,0,136) 0%, rgba(0,0,0,255) 100%);
@@ -154,7 +155,7 @@ body{
     background-color: #707070;
     padding: 20px;
     position: absolute;
-    top: 26%;
+    top: 375px;
     right: 211px;
     width: 348px;
     height: 181px;
@@ -186,10 +187,11 @@ input[type=submit] {
     border: none;
     border-radius: 4px 4px 4px 4px;
     cursor: pointer;
-    margin-top: 45px;
+    margin-top: 51px;
     width: 100%;
     font-size: 1.4rem;
     font-family: Lexend;
+    transition: 0.5s;
 }
 input[type=submit]:hover {
     background-color: #65B11A;
@@ -203,20 +205,20 @@ input[type=submit]:hover {
     justify-content: space-evenly;
 }
 .left-text-top{
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-family: 'Lexend';
     font-weight: bold;
     color: white;
 }
 .left-text-bottom{
-    font-size: 4.5rem;
+    font-size: 6rem;
     font-family: 'Lexend';
     font-weight: bold;
-    margin-top: -45px;
+    margin-top: -51px;
     color: white;
 }
 .right-text-top{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: 'Lexend';
     font-weight: bold;
     color: #FA7121;
@@ -230,7 +232,8 @@ input[type=submit]:hover {
     text-align: right;
 }
 .right-text-container{
-    margin-top: 43px;
+    margin-top: 68px;
+    margin-left: -42px;
 }
 .form-terms-condition-text{
     font-family: 'Lexend';
@@ -241,8 +244,8 @@ input[type=submit]:hover {
 }
 .register-below-text-container{
     position: absolute;
-    top: 21%;
-    right: 22px;
+    top: 310px;
+    right: 15px;
     width: 605px;           
 }
 .register-below-text{
@@ -252,8 +255,8 @@ input[type=submit]:hover {
 }
 .bottom-cards-title-container{
     position: absolute;
-    top: -73px;
-    left: 28.3%;         
+    top: -80.5px;
+    left: 29%;         
 }
 .bottom-cards-title{
     color: white;
@@ -445,6 +448,7 @@ input[type=submit]:hover {
     border: 1px solid #707070;
     background: rgba(250,113,33,255);
     text-align: center;
+    transition: 0.5s;
 }
 .bookmaker-claim-offer-button-2{
     position: relative;
@@ -490,6 +494,9 @@ input[type=submit]:hover {
     border: 1px solid #707070;
     background: rgba(250,113,33,255);
     text-align: center;
+}
+.form-terms-conditions-text-container{
+    margin-top: 30px;
 }
 @media (min-width: 0px) and (max-width: 430px){
     .form-container{
@@ -549,14 +556,14 @@ input[type=submit]:hover {
         width: 92%;
     }
     .register-below-text-container{
-        right: -2%;
-        width: 97%;
-        /*padding-right: 1.8%;*/
+        right: -7%;
+        width: 100%;        
+        top: 265px;
 
     }
     .register-below-text{
         font-size: 12px;
-        padding: 5px;
+        padding: 7px;
     }
     input[type=submit]{
         padding: 4px 20px;
