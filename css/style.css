@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 .main-wrapper{
     background-color: black;
@@ -128,6 +128,10 @@ body{
     background: rgba(250,113,33,255);
     text-align: center;
 }
+.bet-dsi-claim-offer-button:hover{
+    background: #65B11A;
+    cursor: pointer;
+}
 .bet-dsi-claim-offer-button-long-text{
     margin-top: 27px;
 }
@@ -166,6 +170,15 @@ input[type=email], select, textarea {
     margin-bottom: 16px; 
     resize: vertical;
 }
+input[type=tel], select, textarea{
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;     
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
 input[type=submit] {
     background-color: #FA7121;
     color: white;
@@ -179,7 +192,7 @@ input[type=submit] {
     font-family: Lexend;
 }
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #65B11A;
 }
 .top-text-main-wrapper{
     position: absolute;
@@ -213,11 +226,11 @@ input[type=submit]:hover {
     font-family: 'Lexend';
     font-weight: bold;
     color: white;
-    margin-top: -30px;
+    margin-top: -38px;
     text-align: right;
 }
 .right-text-container{
-    margin-top: 40px;
+    margin-top: 43px;
 }
 .form-terms-condition-text{
     font-family: 'Lexend';
@@ -239,7 +252,7 @@ input[type=submit]:hover {
 }
 .bottom-cards-title-container{
     position: absolute;
-    top: -86px;
+    top: -73px;
     left: 28.3%;         
 }
 .bottom-cards-title{
