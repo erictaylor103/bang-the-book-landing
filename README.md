@@ -1,2 +1,2 @@
 # bang-the-book-landing
-Landing Page for Bang The Book
+Freelance landing page for https://bangthebook.com/
